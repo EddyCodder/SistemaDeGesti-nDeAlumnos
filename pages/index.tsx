@@ -15,7 +15,7 @@ export default function App() {
 
   function deleteTodo(id: string) {
     client.models.Todo.delete({ id });
-    console.log("Prueba:", id);
+    console.log("Eliminado:", id);
   }
 
   useEffect(() => {
